@@ -16,7 +16,7 @@ pipeline {
                     def maxTemp = params.MAX_TEMP.toFloat()
                     if (temp > maxTemp) {
                         echo "Too hot! Temp: ${temp}°C"
-                        error("Temperature too high")
+                        error("Temperature too high too high")
                     } else {
                         echo "Good Temp. Temp: ${temp}°C"
                     }
